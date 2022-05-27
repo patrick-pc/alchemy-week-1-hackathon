@@ -2,8 +2,8 @@
 
 pragma solidity ^0.8.1;
 
-import "@openzeppelin/contracts/utils/Strings.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
+import "@openzeppelin/contracts/utils/Strings.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 import "@openzeppelin/contracts/utils/Base64.sol";
 import "hardhat/console.sol";
@@ -73,7 +73,7 @@ contract TextFace is ERC721URIStorage {
 
     event NewTextFaceMinted(address sender, uint256 tokenId);
 
-    constructor() ERC721("TextFace", "TF") {
+    constructor() ERC721("TextFace", "^_^") {
         console.log("Gm (^_^)");
     }
 

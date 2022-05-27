@@ -3,10 +3,10 @@ require('@nomiclabs/hardhat-etherscan')
 require('dotenv').config()
 
 module.exports = {
-  solidity: '0.8.10',
+  solidity: '0.8.1',
   networks: {
-    goerli: {
-      url: process.env.GOERLI_API_KEY,
+    rinkeby: {
+      url: process.env.RINKEBY_API_KEY,
       accounts: [process.env.PRIVATE_KEY],
     },
   },
